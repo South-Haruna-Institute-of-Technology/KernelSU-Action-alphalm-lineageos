@@ -1,12 +1,12 @@
 name: Check and Build
 
 env:
-  kernel_repository: M3351AN/android_kernel_lge_sm8150
-  kernel_branch: lineage-21
+  kernel_repository: M3351AN/kernel_lge_sm8150
+  kernel_branch: main
   device: alphalm
   clang_version: r487747c
   defconfig: |
-    a13_ovo_defconfig
+    ukimiya_defconfig
   kernel_patch: |
     
   kernelsu_patch: |
