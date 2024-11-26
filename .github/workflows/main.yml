@@ -1,12 +1,12 @@
 name: Check and Build
 
 env:
-  kernel_repository: M3351AN/kernel_lge_sm8150
-  kernel_branch: main
+  kernel_repository: sidex15/android_kernel_lge_sm8150
+  kernel_branch: OpenELA-4.14.y-Stock
   device: alphalm
-  clang_version: r487747c
+  clang_version: r383902
   defconfig: |
-    ukimiya_defconfig
+    dragon_ksu_alpha_defconfig
   kernel_patch: |
     
   kernelsu_patch: |
