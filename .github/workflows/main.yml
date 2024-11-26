@@ -3,10 +3,10 @@ name: Check and Build
 env:
   kernel_repository: LineageOS/android_kernel_lge_sm8150
   kernel_branch: lineage-21
-  device: alphalm
+  device: alphaplus
   clang_version: r487747c
   defconfig: |
-    vendor/alpha_lao_com-perf_defconfig
+    vendor/sm8150-perf_defconfig
     vendor/debugfs.config
   kernel_patch: |
     
