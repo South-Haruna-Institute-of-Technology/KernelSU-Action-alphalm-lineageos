@@ -7,8 +7,8 @@ env:
   device1: alphaplus_lao_com
   clang_version: r383902
   defconfig: |
-    vendor/ukimiya_defconfig
     vendor/alpha_lao_com-perf_defconfig
+    vendor/ukimiya_defconfig
 
   kernel_patch: |
     
