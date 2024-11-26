@@ -9,7 +9,7 @@ env:
   defconfig: |
     vendor/ukimiya_defconfig
     vendor/alpha_lao_com-perf_defconfig
-    vendor/sm8150-perf_defconfig
+
   kernel_patch: |
     
   kernelsu_patch: |
