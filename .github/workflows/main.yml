@@ -234,8 +234,9 @@ jobs:
           tag_name: ${{ env.kernelsu_remote_version }}
           body: |
             Device:
-            ${{ env.device }}
-
+            ${{ env.device0 }}
+            ${{ env.device1 }}
+            
             Kernel:
             https://github.com/${{ env.kernel_repository }}/tree/${{ env.kernel_commit_id }}
 
