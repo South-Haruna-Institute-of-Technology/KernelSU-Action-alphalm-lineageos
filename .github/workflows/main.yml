@@ -8,6 +8,7 @@ env:
   defconfig: |
     vendor/alpha_lao_com-perf_defconfig
     vendor/sm8150-perf_defconfig
+    vendor/lineageos_alpha_defconfig
     vendor/debugfs.config
   kernel_patch: |
     
