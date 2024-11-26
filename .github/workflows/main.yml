@@ -3,8 +3,8 @@ name: Check and Build
 env:
   kernel_repository: M3351AN/android_kernel_lge_sm8150
   kernel_branch: OpenELA-4.14.y-Stock
-  device0: alphalm
-  device1: alphaplus
+  device0: alphalm_lao_com
+  device1: alphaplus_lao_com
   clang_version: r383902
   defconfig: |
     vendor/ukimiya_defconfig
