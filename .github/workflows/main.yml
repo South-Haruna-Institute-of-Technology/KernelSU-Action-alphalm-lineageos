@@ -6,7 +6,7 @@ env:
   device: alphalm
   clang_version: r383902
   defconfig: |
-    vendor/dragon_ksu_alpha_defconfig
+    vendor/dragon_alpha_defconfig
   kernel_patch: |
     
   kernelsu_patch: |
