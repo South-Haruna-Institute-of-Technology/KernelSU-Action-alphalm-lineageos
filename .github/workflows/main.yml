@@ -1,13 +1,11 @@
 name: Check and Build
 
 env:
-  kernel_repository: LineageOS/android_kernel_lge_sm8150
-  kernel_branch: lineage-21
-  device: alphaplus
+  kernel_repository: qwe28256/OvO_mcstark_alphalm_kernel
+  device: alphalm
   clang_version: r487747c
   defconfig: |
-    vendor/sm8150-perf_defconfig
-    vendor/debugfs.config
+    a13_ovo_defconfig
   kernel_patch: |
     
   kernelsu_patch: |
