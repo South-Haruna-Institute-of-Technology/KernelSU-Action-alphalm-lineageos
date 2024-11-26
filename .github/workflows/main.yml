@@ -1,7 +1,8 @@
 name: Check and Build
 
 env:
-  kernel_repository: qwe28256/OvO_mcstark_alphalm_kernel
+  kernel_repository: M3351AN/android_kernel_lge_sm8150
+  kernel_branch: lineage-21
   device: alphalm
   clang_version: r487747c
   defconfig: |
