@@ -3,7 +3,8 @@ name: Check and Build
 env:
   kernel_repository: M3351AN/android_kernel_lge_sm8150
   kernel_branch: OpenELA-4.14.y-Stock
-  device: alphalm
+  device0: alphalm
+  device1: alphaplus
   clang_version: r383902
   defconfig: |
     vendor/ukimiya_defconfig
@@ -192,11 +193,12 @@ jobs:
           cat >AnyKernel3-master/anykernel.sh <<EOF
           properties() { '
           kernel.string=$kernel_repository $kernel_branch with KernelSU $kernelsu_remote_version for $device
-          do.devicecheck=1
+          do.devicecheck=0
           do.modules=0
           do.cleanup=1
           do.cleanuponabort=1
-          device.name1=$device
+          device.name1=$device0
+          device.name2=$device1
           '; }
 
           block=auto
